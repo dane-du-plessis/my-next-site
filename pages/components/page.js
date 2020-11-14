@@ -6,7 +6,9 @@ const Page = (props) => {
   return (
     <div className="page">
     <Meta title={props.title} description={props.description}/>
+
     <Header/>
+
     <main role="main" className="main">
       {props.children}
     </main>

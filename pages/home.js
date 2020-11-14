@@ -1,0 +1,36 @@
+import React, { useState } from 'react';
+import EmbeddedMap from './components/EmbeddedMap';
+import Page from './components/page';
+
+const Home = (props) => {
+  const [show, setShow] = useState(false);
+  return (
+    <Page title="home">
+      <div>
+        <h2>
+          Greetings!
+      </h2>
+        <p>
+          Thanks for taking some time to visit my site!
+      </p>
+        <p>
+          So, who am I? Well, it might help to know where I live.
+      </p>
+
+        <button onClick={e => setShow(!show)}>Toggle map.</button>
+        <p></p>
+        {show && <EmbeddedMap />}
+
+        <p>
+          I live in a world of opportunity at the bottom of the second-largest land mass on the planet, which I share with 1.2 billion other people.
+          I have tremendous hope for my fellow humans Each day I work with all my energy to see them thrive. Right now, that means developing deep knowledge of computer technology and being a skilled artisan.
+      </p>
+        <p>
+          Enjoy looking around. I'm constantly working on this site so check in again soon to for updates. The best way to get in touch is to send me an Email (deleted my facebook account a while ago, and I'm not especially active on social media).
+      </p>
+      </div>
+    </Page>
+  )
+}
+
+export default Home;
