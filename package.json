@@ -1,6 +1,8 @@
 {
   "name": "my-site-next",
   "version": "0.1.0",
+  "description": "daneduplessis.com",
+  "main": "pages/index.js",
   "private": true,
   "scripts": {
     "dev": "next dev",

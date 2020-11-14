@@ -1,9 +1,9 @@
 import Page from './components/page';
-export default () => {
+const index = () => {
   return (
     <Page title="Dane's Site">
       <div>
-        <h2>The index content</h2>
+        <p>This is the personal website of Dane du Plessis. </p>
       </div>
       <style jsx>{`
         hr {
@@ -16,3 +16,4 @@ export default () => {
     </Page>
   );
 };
+export default index;

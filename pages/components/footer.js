@@ -1,13 +1,9 @@
 
 const Footer = (props) => {
-  const year = new Date().getFullYear();
-  console.log(year);
-  // return (<em>&#169; Dane P du Plessis {year}</em>);
-
   return (
     <footer role="contentinfo">
 
-      <div className="copyright">&copy; {new Date().getFullYear()} Dane P du Plessis</div>
+      <div className="copyright">&copy; {new Date().getFullYear()} Dane du Plessis</div>
 
       <style jsx>{`
 
