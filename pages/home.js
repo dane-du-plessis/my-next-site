@@ -22,8 +22,8 @@ const Home = (props) => {
         {show && <EmbeddedMap />}
 
         <p>
-          I live in a world of opportunity at the bottom of the second-largest land mass on the planet, which I share with 1.2 billion other people.
-          I have tremendous hope for my fellow humans Each day I work with all my energy to see them thrive. Right now, that means developing deep knowledge of computer technology and being a skilled artisan.
+          I live in a world of opportunity at the southern reaches of the second-largest land mass on the planet, which I share with more than a billion other people.
+          I have tremendous hope for my fellow humans. Each day I work with all my energy to see humanity thrive. In my case, this involves developing deep knowledge of information technology and being a skilled artisan.
       </p>
         <p>
           Enjoy looking around. I'm constantly working on this site so check in again soon to for updates. The best way to get in touch is to send me an Email (deleted my facebook account a while ago, and I'm not especially active on social media).
