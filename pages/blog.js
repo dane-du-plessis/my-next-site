@@ -3,7 +3,7 @@ import Page from "./components/page";
 
 const blog = (props) => (
   <Page title="blog">
-    <h2>Learn your bread - November 29, 2020</h2>
+    <h2>Be picky about what you choose to learn - November 29, 2020</h2>
 
     <p>
       Some reflections on an article I read about{" "}
