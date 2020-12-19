@@ -42,7 +42,7 @@ const blog = (props) => (
       learn from. He made an effort to understand the nuts and bolts of as many different businesses as he could. With that deep knowledge, he was able to invest in the businesses he knew would be most likely to generate a good return. That's the the basic operating principle, and you can apply it to your learning.
     </p>
 
-    <h2>Technology podcasts on a roadtrip - August 24, 2020</h2>
+    <h2>Technology podcasts on a solo road trip - August 24, 2020</h2>
 
     <p>
       On an 7 hour road trip I had several podcasts to listen to. These held my
