@@ -1,5 +1,7 @@
-import React from 'react';
-import Page from './components/page';
+import Image from 'next/image'
+import React from 'react'
+import Page from './components/page'
+
 
 const tech = (props) => {
   return (
@@ -16,14 +18,33 @@ const tech = (props) => {
 
       <h3>JavaScript</h3>
         <p>
-          My favourite multi-paradigm, high-level programming language without which the internet would be very boring indeed. The JavaScript ecosystem is a bit of a jungle and wrapping one's head around the ES versions can be a pain. For anyone starting out with this language, I highly recommend watching <a href="https://www.udemy.com/course/understand-javascript/">JavaScript - Understanding the Weird Parts</a> by Anthony Alicea. Although a bit dated now, it's still one of the best ways to get your head around many of JavaScript's quirks. 
+          My favourite multi-paradigm, high-level programming language without which the internet would be very boring indeed. The JavaScript ecosystem is a bit of a jungle and wrapping one's head around the ES versions can be a pain. For anyone starting out with this language, I highly recommend watching <a href="https://www.udemy.com/course/understand-javascript/">JavaScript - Understanding the Weird Parts</a> by Anthony Alicea. Although a bit dated now, it's still one of the best ways to get your head around many of JavaScript's quirks.
       </p>
 
         <h3>React</h3>
+        <Image
+          src="/react.svg"
+          alt="react logo"
+          layout="fixed"
+          width={50}
+          height={50}
+        />
         <p>A beautifully documented, widely used JS framework for developing user interfaces which started its existence in the Phasebook world. It's easy to learn and comes with a community probably the size of Luxembourg. I've used it in multiple projects (including this website).</p>
 
+        <h3>NextJS</h3>
+        <Image
+          src="/next.svg"
+          alt="next js logo"
+          layout="fixed"
+          width={50}
+          height={50}
+        />
+        <p>
+          A <em>really good</em> framework for building server-side rendered, pre-optimized websites with React. That hardly does it justice. This site uses it. Go <a href="https://nextjs.org/" target="_blank">check it out</a>.
+          </p>
+
         <h3>React Native</h3>
-        <p>The quickest (well, possibly the quickest) way to build a cross platform mobile app. Not necessariy the least buggy of all the options out there, but beats writing dedicated code for Android and iOS if you need an app running on both platforms.</p>
+        <p>The quickest (well, possibly the quickest) way to build a cross platform mobile app. Not the least buggy option, but beats writing dedicated code for Android and iOS if you need an app running on both platforms.</p>
 
         <h3>Svelt - soon</h3>
         <p>
@@ -50,9 +71,11 @@ const tech = (props) => {
         <h3>Java and SQL</h3>
         <p>Java is the workhorse of many enterprise software systems. It's probably best to come to terms with the fact that some of these systems will likely outlive us. Rubbish, you say? Just consider COBOL. And there's not much that can beat SQL if all you want to know is may people live in Texas and earn more than $50k a year. </p>
 
+        <h2>Hardware</h2>
+        <p>I use a Lenovo ThinkPad T490 with Ubuntu installed. Diver compatibility is acceptable, and I've had about as many issues with this setup as with the Macbook Pro I use for work. As usual, the after-sales support that comes with Apple products is abysmal. The ThinkPad has about another three years of first-class support remaining. Both machines are extremely capable and are more than adequate for my needs as a software engineer.  </p>
       </div>
     </Page>
   )
 }
 
-export default tech;
+export default tech
