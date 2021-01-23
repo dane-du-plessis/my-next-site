@@ -50,7 +50,7 @@ const Meta = (props) => {
       }
 
       a {
-        color: #372f2c;
+        color: #0000ff;
       }
 
       p {
