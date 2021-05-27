@@ -35,7 +35,7 @@ const Item = ({ href, current, children}) => {
 }
 
 const Nav = ({current}) => {
-  const pages = ["home", "blog", "tech", "connect"];
+  const pages = ["home", "blog", "tech", "resources", "connect"];
   return (
     <ul>
       {pages.map((page, i) => {

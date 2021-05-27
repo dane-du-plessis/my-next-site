@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import EmbeddedMap from './components/EmbeddedMap';
 import Page from './components/page';
 
 const connect = (props) => {
