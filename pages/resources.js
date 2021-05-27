@@ -10,11 +10,10 @@ const connect = (props) => {
         <p>Listening to technical podcasts can make conplex ideas more familliar and deepen knowledge. It's one of the most effective ways to keep up to speed on new developments in software engineering.</p>
 
         <h3>Sofware Engineering Daily</h3>
-        <p>An interesting tech podcast by ex-Amazon software engineer Jeff Meyerson. One especially memorable interview was with Kent Beck <a href="https://softwareengineeringdaily.com/2019/08/28/facebook-engineering-process-with-kent-beck/">https://softwareengineeringdaily.com/2019/08/28/facebook-engineering-process-with-kent-beck/</a>. </p>
+        <p>An interesting tech podcast by ex-Amazon software engineer Jeff Meyerson. One especially memorable interview was with Kent Beck <a target="_blank" href="https://softwareengineeringdaily.com/2019/08/28/facebook-engineering-process-with-kent-beck/">https://softwareengineeringdaily.com/2019/08/28/facebook-engineering-process-with-kent-beck/</a>. </p>
 
         <h3>JS Party</h3>
-        <p> Always fun and insightful, an weekly overview of web tech. Highly recommended. <a href="https://changelog.com/jsparty">https://changelog.com/jsparty</a></p>
-
+        <p> Fun and instructive, this weekly overview of web tech is very entertaining. It also covers broader topics than just front-end engineering <a target="_blank" href="https://changelog.com/jsparty">https://changelog.com/jsparty</a></p>
 
       </div>
     </Page>
